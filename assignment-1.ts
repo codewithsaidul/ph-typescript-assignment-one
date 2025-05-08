@@ -23,7 +23,7 @@
     return arrays.reduce((prev: T[], curr: T[]) => prev.concat(curr), []);
   }
 
-  // Problem 4
+
   class Vehicle {
     private make: string;
     private year: number;
@@ -51,12 +51,12 @@
     }
   }
 
-  // problem 5
+
   function processValue(value: string | number): number {
     return typeof value === "string" ? value.length : value * 2;
   }
 
-  // problem 6
+
   interface Product {
     name: string;
     price: number;
@@ -72,7 +72,7 @@
     return null;
   }
 
-  // problem 7
+
   enum Day {
     Monday,
     Tuesday,
@@ -92,7 +92,7 @@
   }
 
 
-// problem 8
+
 async function squareAsync(n: number): Promise<number> {
     if (n < 0) {
         return Promise.reject("Negative number not allowed")
