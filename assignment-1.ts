@@ -92,7 +92,7 @@
   }
 
 
-//  problem 8
+// problem 8
 async function squareAsync(n: number): Promise<number> {
     if (n < 0) {
         return Promise.reject("Negative number not allowed")
